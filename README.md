@@ -26,7 +26,7 @@ college-roi-predictor/
 ├── data/
 │   ├── raw/                    # Raw data from API
 │   └── processed/              # Cleaned data and models
-├── code/
+├── Code/
 │   ├── data_collection.py     # Collect data from College Scorecard API
 │   ├── preprocessing.py       # Clean and prepare data
 │   ├── model.py              # Earnings prediction model
@@ -95,10 +95,10 @@ echo "COLLEGE_SCORECARD_API_KEY=your_key_here" > .env
 
 ### Execution
 ```bash
-python code/data_collection.py    # Collect data from 1000+ schools
-python code/preprocessing.py      # Clean and prepare data
-python code/model.py             # Build earnings prediction model  
-python code/roi_model.py         # Build ROI prediction model
+python Code/data_collection.py    # Collect data from 1000+ schools
+python Code/preprocessing.py      # Clean and prepare data
+python Code/model.py             # Build earnings prediction model  
+python Code/roi_model.py         # Build ROI prediction model
 ```
 
 ## Data Sources
