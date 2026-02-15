@@ -1,3 +1,4 @@
+nano Code/streamlit_app.py
 import streamlit as st
 import pickle
 import pandas as pd
@@ -27,7 +28,7 @@ SAMPLE_SCHOOLS = {
     }
 }
 
-h
+
 # Load the trained ROI model
 
 @st.cache_data
